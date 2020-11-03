@@ -5,22 +5,27 @@ export default class Projects extends Component {
         return (
             <section className="sec-1">
                 <div className="main-container">
-                    <h3 style={{ textAlign: "center" }}>
-                        Some of my projects created
-                    </h3>
+                    <h3 style={{ textAlign: "center" }}>React Projects</h3>
                     <div className="post-wrapper">
                         <div>
                             <div className="post">
                                 <img
                                     className="thumbnail"
-                                    src="images/IMG_03.jpg"
+                                    src="images/prac_01.png"
+                                    alt="prac_01"
                                 />
                                 <div className="post-preview">
-                                    <h6 className="post-title">Title</h6>
+                                    <h6 className="post-title">
+                                        React Netflix Clone
+                                    </h6>
                                     <p className="post-intro">
-                                        This is a sentence Test test
+                                        Practicing React Hooks (useState,
+                                        useEffect) and I use the TMDB API for
+                                        the data
                                     </p>
-                                    <a href="#">Read More</a>
+                                    <a href="https://owatch-app.web.app/">
+                                        Live Site
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -28,22 +33,29 @@ export default class Projects extends Component {
                             <div className="post">
                                 <img
                                     className="thumbnail"
-                                    src="images/IMG_03.jpg"
+                                    src="images/pos-banner.png"
+                                    alt="prac_02"
                                 />
                                 <div className="post-preview">
-                                    <h6 className="post-title">Title</h6>
+                                    <h6 className="post-title">
+                                        Beta POS System
+                                    </h6>
                                     <p className="post-intro">
-                                        This is a sentence Test test
+                                        React Redux + Firebase Authentication
                                     </p>
-                                    <a href="#">Read More</a>
+                                    <a href="https://epic-torvalds-fa40d7.netlify.app/">
+                                        Live Site
+                                    </a>
                                 </div>
                             </div>
                         </div>
+
                         <div>
                             <div className="post">
                                 <img
                                     className="thumbnail"
                                     src="images/IMG_03.jpg"
+                                    alt="IMG_03.jpg"
                                 />
                                 <div className="post-preview">
                                     <h6 className="post-title">Title</h6>

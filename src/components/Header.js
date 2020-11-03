@@ -22,7 +22,11 @@ export default class Header extends Component {
                             </ul>
                         </div>
                         <div className="left-column">
-                            <img id="profile-img" src="images/3rd Yr.jpg" />
+                            <img
+                                id="profile-img"
+                                src="images/IMG_00.jpg"
+                                alt="IMG_00"
+                            />
                             <h5 style={{ textAlign: "center", lineHeight: 0 }}>
                                 Personalize Theme:
                             </h5>
