@@ -42,6 +42,8 @@ export default class Projects extends Component {
                                     </h6>
                                     <p className="post-intro">
                                         React Redux + Firebase Authentication
+                                        Test Account Username: test123@gmail.com
+                                        Password: qwerty123
                                     </p>
                                     <a href="https://epic-torvalds-fa40d7.netlify.app/">
                                         Live Site
@@ -54,15 +56,39 @@ export default class Projects extends Component {
                             <div className="post">
                                 <img
                                     className="thumbnail"
-                                    src="images/IMG_03.jpg"
-                                    alt="IMG_03.jpg"
+                                    src="images/MERN_app.png"
+                                    alt="MERN_app.jpg"
                                 />
                                 <div className="post-preview">
-                                    <h6 className="post-title">Title</h6>
+                                    <h6 className="post-title">
+                                        Rich Man's Cashflow
+                                    </h6>
                                     <p className="post-intro">
-                                        This is a sentence Test test
+                                        My first MERN stack app
                                     </p>
-                                    <a href="#">Read More</a>
+                                    <a href="https://cryptic-harbor-12376.herokuapp.com/">
+                                        Live Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="post">
+                                <img
+                                    className="thumbnail"
+                                    src="images/IMG_04.png"
+                                    alt="MERN_app.jpg"
+                                />
+                                <div className="post-preview">
+                                    <h6 className="post-title">
+                                        Task Scheduler App
+                                    </h6>
+                                    <p className="post-intro">
+                                        React Redux CRUD API
+                                    </p>
+                                    <a href="https://renzky15.github.io/task-schedule/">
+                                        Live Site
+                                    </a>
                                 </div>
                             </div>
                         </div>
